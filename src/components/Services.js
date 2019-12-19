@@ -7,22 +7,22 @@ export default class Services extends Component {
             {
              icon:<FaCocktail/>,
              title:"Free cocktails",
-             info:"Lorem ipsum dolor sit amet consectur adispcing elit. Mangi, corpsis!"
+             info:"Unlimited cocktails on us during your stay ranging from many different flavors, delivered right to you!"
             },
             {
              icon:<FaHiking/>,
              title:"Endless Hiking",
-             info:"Lorem ipsum dolor sit amet consectur adispcing elit. Mangi, corpsis!"
+             info:"Take a hike through the Beautiful Blue Mountains here in Jamaica! Have an expert tour guide show you the ins and outs of Jamaica's most famous mountain."
             },
             {
              icon:<FaShuttleVan/>,
              title:"Free Shuttle",
-             info:"Lorem ipsum dolor sit amet consectur adispcing elit. Mangi, corpsis!"
+             info:"With the purchase of your villa, enjoy free shuttle rides from us around town!"
             },
             {
              icon:<FaBeer/>,
              title:"Strongest Beer",
-             info:"Lorem ipsum dolor sit amet consectur adispcing elit. Mangi, corpsis!"
+             info:"Taste our tradition Red Stripe beer! The best pale lager you will be able to find and enjoy."
             }
         ]
     };

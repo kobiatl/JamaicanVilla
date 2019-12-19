@@ -12,7 +12,7 @@ export default class SingleRoom extends Component {
         // console.log(this.props);
         this.state = {
             slug: this.props.match.params.slug,
-            defaultBcg
+            defaultBcg: defaultBcg
         };
     }
     static contextType = RoomContext;
@@ -45,9 +45,8 @@ export default class SingleRoom extends Component {
 
         return (
             <>
-                <StyledHero img={mainImg ||
-                this.state.defaultBcg}>
-                    <Banner title={`${name} room`}>
+                <StyledHero img={images[0] || this.state.defaultBcg}>
+                    <Banner title={`${name} `}>
                         <Link to="/rooms" className="btn-primary">
                             back to rooms
                         </Link>
@@ -67,7 +66,7 @@ export default class SingleRoom extends Component {
                         <article className="info">
                             <h3>info</h3>
                             <h6>price : ${price}</h6>
-                            <h6>size : ${size} SQFT</h6>
+                            <h6>size : {size} SQFT</h6>
                             <h6>
                                 max capacity : {" "}
                                     {capacity > 1 ? `${capacity} people` : `${capacity} person `}

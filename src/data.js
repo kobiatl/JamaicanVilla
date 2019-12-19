@@ -1,7 +1,13 @@
-import room1 from "./images/details-1.jpeg";
+// import room1 from "./images/details-1.jpeg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
+import room5 from "./images/details-5.jpeg";
+import room6 from "./images/details-6.jpeg";
+import room7 from "./images/details-7.jpeg";
+import room20 from "./images/details-20.jpeg";
+import room21 from "./images/details-21.jpeg";
+import room22 from "./images/details-22.jpeg";
 import img1 from "./images/room-1.jpeg";
 import img2 from "./images/room-2.jpeg";
 import img3 from "./images/room-3.jpeg";
@@ -14,6 +20,7 @@ import img9 from "./images/room-9.jpeg";
 import img10 from "./images/room-10.jpeg";
 import img11 from "./images/room-11.jpeg";
 import img12 from "./images/room-12.jpeg";
+import img13 from "./images/room-13.jpeg";
 
 export default [
   {
@@ -21,17 +28,17 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
+      name: "Ochos Rios",
       slug: "single-economy",
-      type: "single",
-      price: 100,
+      type: "Ochos Rios",
+      price: 400,
       size: 200,
-      capacity: 1,
+      capacity: 4,
       pets: false,
-      breakfast: false,
+      breakfast: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Villa L'Horizon invites you to experience the Caribbean vacation of a lifetime whether with family and friends, Business incentive related, Romantic wedding or reunion. Villa L'Horizon was designed and built with you in mind, providing Luxury, privacy and security without losing that homely feeling. L’Horizon offers 8 spacious Bedrooms all with Ensuite/spa bath and shower, Room safe, Cable TV, Internet access and Radio, Wireless access, Hair dryer, Air-condition, 6 with Balconies offering spectacular sea or mountain views and 1 Room with panoramic front garden view and rear pool with waterfall and the 8th room with lounge area overlooking pool area & Bar.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -78,17 +85,17 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
+      name: "Ochos Rios",
       slug: "single-basic",
-      type: "single",
+      type: "Ochos Rios",
       price: 150,
       size: 250,
-      capacity: 1,
+      capacity: 3,
       pets: false,
       breakfast: false,
-      featured: false,
+      featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Richmond Estates is a model community located on Jamaica’s north coast. The homes coexist among a diverse foliage of exotic plants and trees, incorporating lush green areas, parks and nature trail. This secure gated community houses returning residents from Canada, Europe, the United States as well as our local professionals. Guests also enjoy its proximity to Ocho Rios where they can take advantage of all our world renowned attractions: Dunn’s River Falls, Dolphin Cove and Mystic Mountain.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -109,21 +116,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: room5
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: room6
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: room7
             }
           }
         }
@@ -135,9 +142,9 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
+      name: "Ochos Rios",
       slug: "single-standard",
-      type: "single",
+      type: "Ochos Rios",
       price: 250,
       size: 300,
       capacity: 1,
@@ -192,9 +199,9 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
+      name: "Ochos Rios",
       slug: "single-deluxe",
-      type: "single",
+      type: "Ochos Rios",
       price: 300,
       size: 400,
       capacity: 1,
@@ -249,9 +256,9 @@ export default [
       id: "5"
     },
     fields: {
-      name: "double economy",
+      name: "Ochos Rios",
       slug: "double-economy",
-      type: "double",
+      type: "Ochos Rios",
       price: 200,
       size: 300,
       capacity: 2,
@@ -306,9 +313,9 @@ export default [
       id: "6"
     },
     fields: {
-      name: "double basic",
+      name: "Montego Bay",
       slug: "double-basic",
-      type: "double",
+      type: "Montego Bay",
       price: 250,
       size: 350,
       capacity: 2,
@@ -363,9 +370,9 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
+      name: "Montego Bay",
       slug: "double-standard",
-      type: "double",
+      type: "Montego Bay",
       price: 300,
       size: 400,
       capacity: 2,
@@ -373,10 +380,10 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Welcome to Sundara, your beautiful home away from home.This brand new villa sits on its own private sand beach and is nestled away in a secluded and exclusive community in Montego Bay, Jamaica.Sundara also is outfitted with an airconditioned family room where everyone can watch movies together, gorgeous living and dining areas, a state of the art kitchen, two fabulous verandahs with lounging spaces and ocean views, a fully equipped office for your convenience, 12 seater verhandah dining table and of course the Pelican bar for evening relaxation where you can try our special Jamaican rum punch!",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
+        "Swimming pool",
+        "Satellite or cable",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
         "Adequate safety/security",
@@ -394,21 +401,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: room20
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: room21
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: room22
             }
           }
         }
@@ -420,9 +427,9 @@ export default [
       id: "8"
     },
     fields: {
-      name: "double deluxe",
+      name: "Montego Bay",
       slug: "double-deluxe",
-      type: "double",
+      type: "Montego Bay",
       price: 400,
       size: 500,
       capacity: 2,
@@ -477,9 +484,9 @@ export default [
       id: "9"
     },
     fields: {
-      name: "family economy",
+      name: "Montego Bay",
       slug: "family-economy",
-      type: "family",
+      type: "Montego Bay",
       price: 300,
       size: 500,
       capacity: 3,
@@ -534,9 +541,9 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
+      name: "Montego Bay",
       slug: "family-basic",
-      type: "family",
+      type: "Montego Bay",
       price: 350,
       size: 550,
       capacity: 4,
@@ -591,9 +598,9 @@ export default [
       id: "11"
     },
     fields: {
-      name: "family standard",
+      name: "Negril",
       slug: "family-standard",
-      type: "family",
+      type: "Negril",
       price: 400,
       size: 600,
       capacity: 5,
@@ -648,11 +655,11 @@ export default [
       id: "12"
     },
     fields: {
-      name: "family deluxe",
+      name: "Negril",
       slug: "family-deluxe",
-      type: "family",
-      price: 500,
-      size: 700,
+      type: "Negril",
+      price: 1275,
+      size: 2400,
       capacity: 6,
       pets: true,
       breakfast: true,
@@ -705,15 +712,15 @@ export default [
       id: "13"
     },
     fields: {
-      name: "presidential",
+      name: "Kingston",
       slug: "presidential-room",
-      type: "presidential",
+      type: "Kingston",
       price: 600,
       size: 1000,
       capacity: 10,
       pets: true,
       breakfast: true,
-      featured: true,
+      featured: false,
       description:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
@@ -729,7 +736,7 @@ export default [
         {
           fields: {
             file: {
-              url: room1
+              url: img13
             }
           }
         },
